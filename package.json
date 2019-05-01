@@ -1,0 +1,19 @@
+{
+  "name": "resume-cli",
+  "version": "1.0.0",
+  "description": "Node JS CLI displaying my resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyanshu Tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.4.2",
+    "chalk": "^2.4.2",
+    "inquirer": "^6.3.1"
+  },
+  "bin": {
+    "myprofile": "./index.js"
+  }
+}
